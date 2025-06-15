@@ -317,13 +317,6 @@ export function LandingPage({ onGetStarted, onLogin, onPageChange }: LandingPage
                       </li>
                     ))}
                   </ul>
-                  <Button 
-                    className="w-full" 
-                    variant={plan.popular ? 'default' : 'outline'}
-                    onClick={onGetStarted}
-                  >
-                    {plan.cta}
-                  </Button>
                 </CardContent>
               </Card>
             ))}
