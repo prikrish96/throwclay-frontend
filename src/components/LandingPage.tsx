@@ -27,7 +27,7 @@ export function LandingPage({ onGetStarted, onLogin, onPageChange }: LandingPage
         'Basic pottery journal',
         'Community access'
       ],
-      cta: 'Get Started Free',
+      cta: 'Demo',
       popular: false
     },
     {
@@ -195,8 +195,7 @@ export function LandingPage({ onGetStarted, onLogin, onPageChange }: LandingPage
               <Button variant="ghost" onClick={() => onPageChange('ceramics')} className="text-sm">
                 Ceramics Marketplace
               </Button>
-              <Button variant="outline" onClick={onLogin}>Sign In</Button>
-              <Button onClick={onGetStarted}>Get Started</Button>
+              <Button variant="outline" onClick={onLogin}>Demo</Button>
             </div>
           </div>
         </div>
@@ -217,10 +216,9 @@ export function LandingPage({ onGetStarted, onLogin, onPageChange }: LandingPage
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" onClick={onGetStarted} className="flex items-center space-x-2">
-                  <span>Get Started Free</span>
+                  <span>Demo</span>
                   <ArrowRight className="w-4 h-4" />
                 </Button>
-                <Button size="lg" variant="outline">Watch Demo</Button>
               </div>
               <p className="text-sm text-muted-foreground mt-4">
                 Always free to start • No credit card required • Upgrade anytime
@@ -394,13 +392,12 @@ export function LandingPage({ onGetStarted, onLogin, onPageChange }: LandingPage
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" onClick={onGetStarted} className="flex items-center space-x-2">
-              <span>Get Started Free</span>
+              <span>Demo</span>
               <ArrowRight className="w-4 h-4" />
             </Button>
-            <Button size="lg" variant="outline">Schedule a Demo</Button>
           </div>
           <p className="text-sm text-muted-foreground mt-4">
-            Questions? <a href="mailto:hello@throwclay.com" className="text-primary hover:underline">Contact our team</a>
+            Questions? <a href="mailto:hello.throwclay@gmail.com" className="text-primary hover:underline">Contact our team</a>
           </p>
         </div>
       </section>
@@ -408,60 +405,6 @@ export function LandingPage({ onGetStarted, onLogin, onPageChange }: LandingPage
       {/* Footer */}
       <footer className="bg-muted py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            <div>
-              <div className="flex items-center space-x-3 mb-4">
-                <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                  <Palette className="w-4 h-4 text-primary-foreground" />
-                </div>
-                <span className="text-xl font-bold">Throw Clay</span>
-              </div>
-              <p className="text-muted-foreground">
-                The all-in-one platform for pottery studios and ceramic artists.
-              </p>
-            </div>
-            <div>
-              <h4 className="font-medium mb-4">Product</h4>
-              <ul className="space-y-2 text-sm text-muted-foreground">
-                <li><a href="#features" className="hover:text-foreground">Features</a></li>
-                <li><a href="#pricing" className="hover:text-foreground">Pricing</a></li>
-                <li><a href="#" className="hover:text-foreground">API</a></li>
-                <li><a href="#" className="hover:text-foreground">Integrations</a></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-medium mb-4">Community</h4>
-              <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>
-                  <button 
-                    onClick={() => onPageChange('studios')} 
-                    className="hover:text-foreground text-left"
-                  >
-                    Find Studios
-                  </button>
-                </li>
-                <li>
-                  <button 
-                    onClick={() => onPageChange('ceramics')} 
-                    className="hover:text-foreground text-left"
-                  >
-                    Ceramics Marketplace
-                  </button>
-                </li>
-                <li><a href="#" className="hover:text-foreground">Blog</a></li>
-                <li><a href="#" className="hover:text-foreground">Help Center</a></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-medium mb-4">Company</h4>
-              <ul className="space-y-2 text-sm text-muted-foreground">
-                <li><a href="#" className="hover:text-foreground">About</a></li>
-                <li><a href="#" className="hover:text-foreground">Careers</a></li>
-                <li><a href="#" className="hover:text-foreground">Privacy</a></li>
-                <li><a href="#" className="hover:text-foreground">Terms</a></li>
-              </ul>
-            </div>
-          </div>
           <div className="border-t mt-12 pt-8 text-center text-sm text-muted-foreground">
             <p>&copy; 2025 Throw Clay. All rights reserved.</p>
           </div>
