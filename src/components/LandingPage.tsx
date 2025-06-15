@@ -32,8 +32,8 @@ export function LandingPage({ onGetStarted, onLogin, onPageChange }: LandingPage
     },
     {
       name: 'Passion Projects',
-      price: '$12',
-      period: 'month',
+      price: '$$',
+      period: 'Coming Soon',
       description: 'Ideal for individual pottery artists',
       features: [
         '15 projects',
@@ -49,8 +49,8 @@ export function LandingPage({ onGetStarted, onLogin, onPageChange }: LandingPage
     },
     {
       name: 'Artist/Small Studio',
-      price: '$39',
-      period: 'month',
+      price: '$$',
+      period: 'Coming Soon',
       description: 'Perfect for small studios and teaching artists',
       features: [
         '30 projects (themes)',
