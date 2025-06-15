@@ -306,10 +306,6 @@ export function LandingPage({ onGetStarted, onLogin, onPageChange }: LandingPage
                 )}
                 <CardHeader className="text-center">
                   <CardTitle className="text-lg">{plan.name}</CardTitle>
-                  <div className="mt-4">
-                    <span className="text-3xl font-bold">{plan.price}</span>
-                    <span className="text-muted-foreground">/{plan.period}</span>
-                  </div>
                   <p className="text-sm text-muted-foreground mt-2">{plan.description}</p>
                 </CardHeader>
                 <CardContent>
