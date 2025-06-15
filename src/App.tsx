@@ -1051,8 +1051,7 @@ export default function App() {
                       <Button variant="ghost" onClick={() => setCurrentPage('landing')}>Home</Button>
                       <Button variant="ghost" onClick={() => setCurrentPage('studios')}>Find Studios</Button>
                       <Button variant="ghost" onClick={() => setCurrentPage('ceramics')}>Ceramics Marketplace</Button>
-                      <Button variant="outline" onClick={handleShowLogin}>Sign In</Button>
-                      <Button onClick={handleGetStarted}>Get Started</Button>
+                      <Button variant="outline" onClick={handleShowLogin}>Demo</Button>
                     </div>
                   </div>
                 </div>
@@ -1077,8 +1076,7 @@ export default function App() {
                       <Button variant="ghost" onClick={() => setCurrentPage('landing')}>Home</Button>
                       <Button variant="ghost" onClick={() => setCurrentPage('studios')}>Find Studios</Button>
                       <Button variant="ghost" onClick={() => setCurrentPage('ceramics')}>Ceramics Marketplace</Button>
-                      <Button variant="outline" onClick={handleShowLogin}>Sign In</Button>
-                      <Button onClick={handleGetStarted}>Get Started</Button>
+                      <Button variant="outline" onClick={handleShowLogin}>Demo</Button>
                     </div>
                   </div>
                 </div>
