@@ -18,8 +18,6 @@ export function LandingPage({ onGetStarted, onLogin, onPageChange }: LandingPage
   const pricingPlans = [
     {
       name: 'Free',
-      price: '$0',
-      period: 'forever',
       description: 'Perfect for getting started with Throw Clay',
       features: [
         '2 projects',
@@ -32,8 +30,6 @@ export function LandingPage({ onGetStarted, onLogin, onPageChange }: LandingPage
     },
     {
       name: 'Passion Projects',
-      price: '$$',
-      period: 'Coming Soon',
       description: 'Ideal for individual pottery artists',
       features: [
         '15 projects',
@@ -49,8 +45,6 @@ export function LandingPage({ onGetStarted, onLogin, onPageChange }: LandingPage
     },
     {
       name: 'Artist/Small Studio',
-      price: '$$',
-      period: 'Coming Soon',
       description: 'Perfect for small studios and teaching artists',
       features: [
         '30 projects (themes)',
@@ -67,8 +61,6 @@ export function LandingPage({ onGetStarted, onLogin, onPageChange }: LandingPage
     },
     {
       name: 'Studio Pro',
-      price: 'Custom',
-      period: 'contact sales',
       description: 'Enterprise solution for large studios',
       features: [
         'Unlimited projects',
