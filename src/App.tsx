@@ -1093,7 +1093,7 @@ export default function App() {
               <Navigation
                 currentUser={currentUser}
                 currentPage={currentPage}
-                onPageChange={setCurrentPage}
+                onPageChange={setCurrentPage as any}
                 onLogout={handleLogout}
               />
 
